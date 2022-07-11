@@ -1,5 +1,4 @@
 from random import choice as pick
-from time import sleep
 from custom import *
 
 print("————————————————————————————\n"

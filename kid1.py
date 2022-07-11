@@ -2,7 +2,7 @@ from random import randint
 from custom import clear, bColors
 
 start  = 0
-ending = 10
+
 clear()
 
 user = str(input("Hi, what's your name, user? "))
@@ -15,6 +15,7 @@ print(f"Ok, you have to figure out the right number between {start} and {ending}
 value = randint(start, ending)
 
 for i in range (start, ending):
+    
     userTry = int(input(f"Insert a number betweet {start} and {ending}: "))
     if userTry == value:
         print(bColors.GREEN + f"Nice!! You found the value: " + bColors.END + f"{value}")
